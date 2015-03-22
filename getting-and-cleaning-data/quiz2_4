@@ -1,3 +1,0 @@
-library(sqldf)
-acs <- read.csv(file = "./getdata%2Fdata%2Fss06pid.csv",sep = ",",header=T)
-sqldf("select * from acs where AGEP < 50")
